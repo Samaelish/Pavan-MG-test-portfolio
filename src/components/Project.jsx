@@ -7,7 +7,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
         <h1 className=' font-semibold text-lg pt-1'>{title}</h1>
         <p className='text-content pt-4 font-light'>{description}</p>
         <h3 className='text-dark-heading  font-medium pt-4'>
-          Tech Stack : <span className='font-light'>{techstack}</span>
+          Технологии : <span className='font-light'>{techstack}</span>
         </h3>
         <div className='flex justify-between items-center mt-5'>
           <div className='flex items-center'>
@@ -33,12 +33,12 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               />
             </svg>
             <a href={previewLink} target='_blank' rel='noreferrer noopener' className='underline pl-2 font-light '>
-              Live Preview
+              Демо
             </a>
           </div>
           <div className='flex items-center'>
             <svg
-              className='fill-dark-heading inline-block min-w-fit'
+              className='fill-black-content inline-block min-w-fit'
               width='20'
               height='20'
               viewBox='0 0 20 20'
@@ -53,7 +53,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
             </svg>
 
             <a href={githubLink} target='_blank' rel='noreferrer noopener' className='underline pl-2 font-light '>
-              View Code
+              Смотреть код
             </a>
           </div>
         </div>
