@@ -2,7 +2,7 @@
 import logogradient from './assets/logo.svg'
 import logo from './assets/logo2.svg'
 // Profile Image
-import profile from './assets/profile.jpg'
+import profile from './assets/profile-sam.jpg'
 // Tech stack images
 import html from './assets/techstack/html.png'
 import css from './assets/techstack/css.png'
@@ -32,8 +32,8 @@ export const logos = {
 
 // Personal Details
 export const personalDetails = {
-  name: 'Pavan MG',
-  tagline: 'I build things for web',
+  name: 'Семён Денисов',
+  tagline: 'И я создал это на Vite',
   img: profile,
   about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
 }
