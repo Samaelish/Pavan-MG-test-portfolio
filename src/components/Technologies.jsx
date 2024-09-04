@@ -6,8 +6,8 @@ function Technologies() {
   return (
     <main className='container mx-auto max-width pt-10 pb-20 '>
       <section>
-        <h1 className='text-center text-2xl text-dark-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>Tech Stack</h1>
-        <p className='text-center text-content py-2'>Technologies I&apos;ve been working with recently</p>
+        <h1 className='text-center text-2xl text-dark-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>Мой набор технологий</h1>
+        <p className='font-semibold text-center text-content py-2'>Технологии, с которыми я недавно работал</p>
       </section>
       <section className='grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6'>
         <img src={html} title='html' alt='' />
