@@ -17,6 +17,7 @@ export default {
         "dark-card": "#363636",
         "green-text": "#018C0F",
         "greenbg": "#D7FFE0",
+        "black-content": '#000000',
       },
     },
   },
