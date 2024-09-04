@@ -40,10 +40,9 @@ export const personalDetails = {
 
 // Social Media URLs
 export const socialMediaUrl = {
-  linkdein: 'https://www.linkedin.com/',
-  github: 'https://www.github.com/',
-  twitter: 'https://twitter.com/',
-  instagram: 'https://www.instagram.com/',
+  headhunter: 'https://hh.ru/resume/a7cce4a5ff086a4aeb0039ed1f63434c716572',
+  github: 'https://www.github.com/Samaelish',
+  vkontakte: 'https://vk.com/samaelish',
 }
 
 // Tech Stack and Tools
@@ -122,6 +121,6 @@ project lorem ipsum generator for dummy content`,
 
 // Contact Details
 export const contactDetails = {
-  email: 'hi@example.com',
-  phone: '+91 12345 67890',
+  email: 'semyondenisov@gmail.com',
+  phone: '+7 (915) 363-40-14',
 }
