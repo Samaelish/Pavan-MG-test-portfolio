@@ -35,27 +35,22 @@ function Header() {
       <nav className={` ${!isOpen ? 'hidden' : null} text-center md:flex justify-between`}>
         <ul className='font-semibold text-content md:flex items-center md:space-x-5 md:mr-10'>
           <li className='pb-1 md:pb-0'>
-            <a href='/' onClick={toggleClass}>
+            <a href='#home' onClick={toggleClass}>
               Главная
             </a>
           </li>
           <li className='pb-1 md:pb-0'>
-            <a href='/' onClick={toggleClass}>
-              Обо мне
-            </a>
-          </li>
-          <li className='pb-1 md:pb-0'>
-            <a href='/technologies' onClick={toggleClass}>
+            <a href='#techstack' onClick={toggleClass}>
               Технологии
             </a>
           </li>
           <li className='pb-1 md:pb-0'>
-            <a href='/projects' onClick={toggleClass}>
+            <a href='#projects' onClick={toggleClass}>
               Проекты
             </a>
           </li>
           <li>
-            <a href='/contact' onClick={toggleClass}>
+            <a href='#contact' onClick={toggleClass}>
               Контакты
             </a>
           </li>
