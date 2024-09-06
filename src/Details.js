@@ -17,12 +17,12 @@ import github from './assets/techstack/github.png'
 import git from './assets/techstack/git.png'
 import gsap from './assets/techstack/gsap.png'
 // Porject Images
-import projectImage1 from './assets/projects/project1.jpg'
-import projectImage2 from './assets/projects/project2.jpg'
-import projectImage3 from './assets/projects/project3.jpg'
-import projectImage4 from './assets/projects/project4.jpg'
-import projectImage5 from './assets/projects/project5.jpg'
-import projectImage6 from './assets/projects/project6.jpg'
+import projectImage1 from './assets/projects/store-preview.png'
+import projectImage2 from './assets/projects/todo-preview.png'
+import projectImage3 from './assets/projects/weather-preview.png'
+import projectImage4 from './assets/projects/converter-preview.jpg'
+import projectImage5 from './assets/projects/cockroach-preview.jpg'
+import projectImage6 from './assets/projects/bootstrap-portfolio.png'
 
 // Logos
 export const logos = {
@@ -33,7 +33,7 @@ export const logos = {
 // Personal Details
 export const personalDetails = {
   name: 'Семён Денисов',
-  tagline: 'И я создал это на Vite',
+  tagline: 'и я создал это на Vite',
   img: profile,
   about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
 }
@@ -64,58 +64,52 @@ export const techStackDetails = {
 // Project Details 
 export const projectDetails = [
   {
-    title: 'Project title 1',
+    title: 'Лендинг страйкбольного магазина',
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Это сайт-визитка на HTML+CSS и чистом JS. Также использована библиотека scroll-reveal`,
     techstack: 'HTML/CSS, JavaScript',
-    previewLink: 'https://google.com',
-    githubLink: 'https://github.com',
+    previewLink: 'https://store-website.vercel.app/',
+    githubLink: 'https://github.com/Samaelish/Store-Website',
   },
   {
-    title: 'Project title 2',
+    title: 'Список задач на React и Typescript',
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: 'HTML/CSS, JavaScript',
-    previewLink: 'https://google.com',
-    githubLink: 'https://github.com',
+    description: `Удаление и добавление пользователей, основы Typescript и React`,
+    techstack: 'React, TypeScript',
+    previewLink: 'https://react-typescript-todo-plum.vercel.app/',
+    githubLink: 'https://github.com/Samaelish/React-Typescript-Todo',
   },
   {
-    title: 'Project title 3',
+    title: 'Погода онлайн на React',
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: 'HTML/CSS, JavaScript',
-    previewLink: 'https://google.com',
-    githubLink: 'https://github.com',
+    description: `Веб приложение с погодой "Погода онлайн на React".`,
+    techstack: 'HTML/CSS, React, Openweathermap API',
+    previewLink: 'https://weather-react-seven.vercel.app/',
+    githubLink: 'https://github.com/Samaelish/WeatherReact',
   },
   {
-    title: 'Project title 4',
+    title: 'Калькулятор курса валют с использованием API',
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: 'HTML/CSS, JavaScript',
-    previewLink: 'https://google.com',
-    githubLink: 'https://github.com',
+    description: `Калькулятор курса валют с использованием API`,
+    techstack: 'JavaScript, React, Vite, ExchangerateApi',
+    previewLink: 'https://currency-converter-markgroup.vercel.app/',
+    githubLink: 'https://github.com/Samaelish/currency-converter-markgroup',
   },
   {
-    title: 'Project title 5',
+    title: 'Игра "Раздави Таракана"',
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Игра "Раздави Таракана" на HTML+CSS+JS`,
     techstack: 'HTML/CSS, JavaScript',
-    previewLink: 'https://google.com',
-    githubLink: 'https://github.com',
+    previewLink: 'https://whack-a-mole-nu-ashen.vercel.app/',
+    githubLink: 'https://github.com/Samaelish/whack-a-mole?tab=readme-ov-file',
   },
   {
-    title: 'Project title 6',
+    title: 'Портфолио на Bootstrap 5',
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: 'HTML/CSS, JavaScript',
-    previewLink: 'https://google.com',
-    githubLink: 'https://github.com',
+    description: `Простое портфолио, сделанное на чистом Bootstrap 5`,
+    techstack: 'HTML | Bootstrap 5',
+    previewLink: 'https://portfolio-bootstrap-5.vercel.app/',
+    githubLink: 'https://github.com/Samaelish/Portfolio-Bootstrap-5',
   },
 ]
 
