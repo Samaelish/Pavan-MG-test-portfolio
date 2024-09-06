@@ -84,9 +84,6 @@ function Contact() {
             <a href='#home'>Главная</a>
           </li>
           <li className='pb-1 md:pb-0'>
-            <a href='#about'>Обо мне</a>
-          </li>
-          <li className='pb-1 md:pb-0'>
             <a href='#techstack'>Технологии</a>
           </li>
           <li className='pb-1 md:pb-0'>
