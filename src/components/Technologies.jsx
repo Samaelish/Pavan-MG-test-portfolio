@@ -4,7 +4,7 @@ function Technologies() {
   const { html, css, js, react, redux, tailwind, bootstrap, sass, vscode, git, github, gsap} =
     techStackDetails
   return (
-    <main className='container mx-auto max-width pt-10 pb-20 '>
+    <main id='techstack' className='container mx-auto max-width pt-10 pb-20 '>
       <section>
         <h1 className='text-center text-2xl text-dark-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>Мой набор технологий</h1>
         <p className='font-semibold text-center text-content py-2'>Технологии, с которыми я недавно работал</p>
