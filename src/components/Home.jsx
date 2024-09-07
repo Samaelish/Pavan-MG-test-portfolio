@@ -4,7 +4,7 @@ function Home() {
   const { name, tagline, img } = personalDetails
 
   return (
-    <main className='container mb-10 mx-auto max-width section md:flex justify-between items-center' id='home'>
+    <main className='container mb-10 md:mb-40 mx-auto max-width section md:flex justify-between items-center' id='home'>
       <div>
         <h1 className='text-2xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold'>
           Привет,👋
